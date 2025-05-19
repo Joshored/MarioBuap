@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -52,6 +53,17 @@ public class PlayerController : MonoBehaviour
             isGrounded = true;
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("void"))
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+        if (collision.CompareTag("brick"))
+        {
+            
+            rb.velocity = Vector2.down * 5;
+        }
+    }
+
 }
-
-
