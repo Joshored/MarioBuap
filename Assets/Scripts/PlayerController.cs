@@ -4,6 +4,8 @@ public class MarioController : MonoBehaviour
 {
     public float speed = 5f;
     public float jumpForce = 15f;
+    public float runMultiplier = 1.7f;
+
 
     public Transform groundCheck;       // Un punto para detectar si está tocando el suelo
     public float checkRadius = 0.2f;    // Radio para la detección
@@ -23,9 +25,21 @@ public class MarioController : MonoBehaviour
 
     void Update()
     {
+        if (hasReachedFlag)
+            return;
+
         // Movimiento horizontal
         moveInput = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        float currentSpeed = speed;
+
+        // Si se mantiene presionada la tecla Shift o Z, correr
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.Z))
+        {
+            currentSpeed *= runMultiplier;
+        }
+
+        rb.velocity = new Vector2(moveInput * currentSpeed, rb.velocity.y);
+
 
         // Voltear sprite según dirección
         if (moveInput != 0)
@@ -44,5 +58,17 @@ public class MarioController : MonoBehaviour
         anim.SetFloat("Speed", Mathf.Abs(moveInput));
         anim.SetBool("isJumping", !isGrounded);
     }
+
+    private bool hasReachedFlag = false;
+
+    public void ActivateFlagAnimation()
+    {
+        anim.Play("Celebrate");
+        rb.velocity = Vector2.zero; // Detén a Mario
+        this.enabled = false;       // (Opcional) Desactiva controles
+    }
+
+
+
 }
 
