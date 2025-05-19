@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|d:\\ing cc\\semestres\\4 primavera 2025\\graficaci\u00F3n\\mariobuap\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|d:\\ing cc\\semestres\\4 primavera 2025\\graficaci\u00F3n\\mariobuap\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T06:04:30.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T21:02:26.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T21:02:26.762Z"
             }
           ]
         }

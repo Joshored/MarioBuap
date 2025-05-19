@@ -3,7 +3,7 @@ using UnityEngine;
 public class MarioController : MonoBehaviour
 {
     public float speed = 5f;
-    public float jumpForce = 7f;
+    public float jumpForce = 15f;
 
     public Transform groundCheck;       // Un punto para detectar si está tocando el suelo
     public float checkRadius = 0.2f;    // Radio para la detección
