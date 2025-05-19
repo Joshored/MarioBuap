@@ -1,57 +1,48 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class MarioController : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public float jumpForce = 10f;
+    public float speed = 5f;
+    public float jumpForce = 7f;
+
+    public Transform groundCheck;       // Un punto para detectar si está tocando el suelo
+    public float checkRadius = 0.2f;    // Radio para la detección
+    public LayerMask whatIsGround;      // Define qué es suelo
+
     private Rigidbody2D rb;
-    private Animator animator;
-    private bool isGrounded = false;
+    private Animator anim;
+
+    private bool isGrounded;
+    private float moveInput;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
-        float moveInput = Input.GetAxis("Horizontal");
+        // Movimiento horizontal
+        moveInput = Input.GetAxisRaw("Horizontal");
+        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
 
-        // Movimiento
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+        // Voltear sprite según dirección
+        if (moveInput != 0)
+            transform.localScale = new Vector3(Mathf.Sign(moveInput), 1, 1);
 
-        // Saltar
+        // Detección de suelo
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
+
+        // Salto
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            isGrounded = false;
         }
 
-        // Animaciones
-        if (Mathf.Abs(moveInput) > 0.01f)
-        {
-            animator.Play("Mario_Walk"); // Usa el nombre exacto de tu animación de caminar
-        }
-        else
-        {
-            animator.Play("Mario_Idle"); // Usa el nombre exacto de tu animación de estar quieto
-        }
-
-        // Girar sprite dependiendo de la dirección
-        if (moveInput > 0)
-            transform.localScale = new Vector3(1, 1, 1);
-        else if (moveInput < 0)
-            transform.localScale = new Vector3(-1, 1, 1);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.contacts[0].normal.y > 0.5f)
-        {
-            isGrounded = true;
-        }
+        // Actualizar animaciones
+        anim.SetFloat("Speed", Mathf.Abs(moveInput));
+        anim.SetBool("isJumping", !isGrounded);
     }
 }
-
 
