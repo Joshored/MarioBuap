@@ -311,6 +311,7 @@
 "Assets/Scripts/BrickController.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/FlagTrigger.cs"
+"Assets/Scripts/GoombaController.cs"
 "Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 /deterministic
