@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MarioController : MonoBehaviour
 {
@@ -51,6 +52,7 @@ public class MarioController : MonoBehaviour
         // Salto
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
+            Debug.Log("¡Salto!");
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
 
@@ -67,8 +69,6 @@ public class MarioController : MonoBehaviour
         rb.velocity = Vector2.zero; // Detén a Mario
         this.enabled = false;       // (Opcional) Desactiva controles
     }
-
-
 
 }
 
