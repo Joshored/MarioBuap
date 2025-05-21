@@ -6,6 +6,7 @@ TagManager:
   tags:
   - brick
   - Flag
+  - Enemy
   layers:
   - Default
   - TransparentFX
