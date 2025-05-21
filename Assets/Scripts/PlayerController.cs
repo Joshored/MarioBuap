@@ -17,11 +17,12 @@ public class MarioController : MonoBehaviour
 
     private bool isGrounded;
     private float moveInput;
-
+    public  bool growUp;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        growUp = false;
     }
 
     void Update()
@@ -59,6 +60,11 @@ public class MarioController : MonoBehaviour
         // Actualizar animaciones
         anim.SetFloat("Speed", Mathf.Abs(moveInput));
         anim.SetBool("isJumping", !isGrounded);
+
+        if (growUp)
+        {
+            anim.SetBool("GrowUp", growUp);
+        }
     }
 
     private bool hasReachedFlag = false;
