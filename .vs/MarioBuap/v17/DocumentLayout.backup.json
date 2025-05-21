@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\",
+  "WorkspaceRootPath": "C:\\Users\\maste\\OneDrive\\Documentos\\GitHub\\Mario2\\MarioBuap\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|d:\\ing cc\\semestres\\4 primavera 2025\\graficaci\u00F3n\\mariobuap\\assets\\scripts\\goombacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|c:\\users\\maste\\onedrive\\documentos\\github\\mario2\\mariobuap\\assets\\menuassets\\newbehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|solutionrelative:assets\\menuassets\\newbehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|c:\\users\\maste\\onedrive\\documentos\\github\\mario2\\mariobuap\\assets\\scripts\\goombacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\goombacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\assets\\scripts\\brickcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|C:\\Users\\maste\\OneDrive\\Documentos\\GitHub\\Mario2\\MarioBuap\\assets\\scripts\\brickcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\brickcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|C:\\Users\\maste\\OneDrive\\Documentos\\GitHub\\Mario2\\MarioBuap\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\assets\\scripts\\flagtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|C:\\Users\\maste\\OneDrive\\Documentos\\GitHub\\Mario2\\MarioBuap\\assets\\scripts\\flagtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35C28425-8B24-C987-0232-8389E7CF883E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flagtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -31,54 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NewBehaviourScript.cs",
+              "DocumentMoniker": "C:\\Users\\maste\\OneDrive\\Documentos\\GitHub\\Mario2\\MarioBuap\\Assets\\MenuAssets\\NewBehaviourScript.cs",
+              "RelativeDocumentMoniker": "Assets\\MenuAssets\\NewBehaviourScript.cs",
+              "ToolTip": "C:\\Users\\maste\\OneDrive\\Documentos\\GitHub\\Mario2\\MarioBuap\\Assets\\MenuAssets\\NewBehaviourScript.cs",
+              "RelativeToolTip": "Assets\\MenuAssets\\NewBehaviourScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T06:23:02.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GoombaController.cs",
-              "DocumentMoniker": "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\Assets\\Scripts\\GoombaController.cs",
+              "DocumentMoniker": "C:\\Users\\maste\\OneDrive\\Documentos\\GitHub\\Mario2\\MarioBuap\\Assets\\Scripts\\GoombaController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GoombaController.cs",
-              "ToolTip": "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\Assets\\Scripts\\GoombaController.cs",
+              "ToolTip": "C:\\Users\\maste\\OneDrive\\Documentos\\GitHub\\Mario2\\MarioBuap\\Assets\\Scripts\\GoombaController.cs",
               "RelativeToolTip": "Assets\\Scripts\\GoombaController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T05:20:28.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FlagTrigger.cs",
-              "DocumentMoniker": "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\Assets\\Scripts\\FlagTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\maste\\OneDrive\\Documentos\\GitHub\\Mario2\\MarioBuap\\Assets\\Scripts\\FlagTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FlagTrigger.cs",
-              "ToolTip": "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\Assets\\Scripts\\FlagTrigger.cs",
+              "ToolTip": "C:\\Users\\maste\\OneDrive\\Documentos\\GitHub\\Mario2\\MarioBuap\\Assets\\Scripts\\FlagTrigger.cs",
               "RelativeToolTip": "Assets\\Scripts\\FlagTrigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T23:35:13.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T23:35:13.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\maste\\OneDrive\\Documentos\\GitHub\\Mario2\\MarioBuap\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\maste\\OneDrive\\Documentos\\GitHub\\Mario2\\MarioBuap\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:53:02.67Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T20:53:02.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "BrickController.cs",
-              "DocumentMoniker": "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\Assets\\Scripts\\BrickController.cs",
+              "DocumentMoniker": "C:\\Users\\maste\\OneDrive\\Documentos\\GitHub\\Mario2\\MarioBuap\\Assets\\Scripts\\BrickController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BrickController.cs",
-              "ToolTip": "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\u00F3n\\MarioBuap\\Assets\\Scripts\\BrickController.cs",
+              "ToolTip": "C:\\Users\\maste\\OneDrive\\Documentos\\GitHub\\Mario2\\MarioBuap\\Assets\\Scripts\\BrickController.cs",
               "RelativeToolTip": "Assets\\Scripts\\BrickController.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAgwBMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T20:53:02.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T20:53:02.68Z"
             }
           ]
         }
