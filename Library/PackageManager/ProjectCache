@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/maste/OneDrive/Documentos/GitHub/Mario2/MarioBuap/Packages/manifest.json
+    m_FilePath: "D:/Ing CC/Semestres/4 Primavera 2025/Graficaci\xF3n/MarioBuap/Packages/manifest.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638834050247282897
-    m_Hash: 4004823778
+      ticks: 638834093480497602
+    m_Hash: 1961103003
   m_LockFileStatus:
-    m_FilePath: C:/Users/maste/OneDrive/Documentos/GitHub/Mario2/MarioBuap/Packages/packages-lock.json
+    m_FilePath: "D:/Ing CC/Semestres/4 Primavera 2025/Graficaci\xF3n/MarioBuap/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638834050247377581
-    m_Hash: 2398555858
+      ticks: 638834093480497602
+    m_Hash: 2893631106
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/maste/OneDrive/Documentos/GitHub/Mario2/MarioBuap/Packages
+m_ProjectPath: "D:/Ing CC/Semestres/4 Primavera 2025/Graficaci\xF3n/MarioBuap/Packages"
 m_EditorVersion: 2022.3.62f1 (4af31df58517)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.2d.sprite@1.0.0"
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -86,7 +86,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.2d.tilemap@1.0.0"
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -160,7 +160,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.14
   source: 1
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.ide.visualstudio@2.0.14
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.14"
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -252,7 +252,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.1
   source: 1
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.inputsystem@1.6.1
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.inputsystem@1.6.1"
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -380,7 +380,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.9
   source: 1
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.textmeshpro@3.0.9
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.textmeshpro@3.0.9"
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -579,7 +579,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.ugui@1.0.0"
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -652,7 +652,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.modules.animation@1.0.0"
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -708,7 +708,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.modules.ui@1.0.0"
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -764,7 +764,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.modules.imgui@1.0.0"
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -820,7 +820,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.modules.uielements@1.0.0"
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -888,7 +888,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.33
   source: 1
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.test-framework@1.1.33"
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1030,7 +1030,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.modules.tilemap@1.0.0"
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1089,7 +1089,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.modules.jsonserialize@1.0.0"
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1145,7 +1145,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6"
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -1217,7 +1217,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\maste\OneDrive\Documentos\GitHub\Mario2\MarioBuap\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: "D:\\Ing CC\\Semestres\\4 Primavera 2025\\Graficaci\xF3n\\MarioBuap\\Library\\PackageCache\\com.unity.modules.physics2d@1.0.0"
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
