@@ -16,13 +16,13 @@ public class MarioController : MonoBehaviour
 
     private bool isGrounded;
     private float moveInput;
-
+    public  bool growUp;
     private bool isDead = false;
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        growUp = false;
     }
 
     void Update()
@@ -52,6 +52,11 @@ public class MarioController : MonoBehaviour
 
         anim.SetFloat("Speed", Mathf.Abs(moveInput));
         anim.SetBool("isJumping", !isGrounded);
+
+        if (growUp)
+        {
+            anim.SetBool("GrowUp", growUp);
+        }
     }
 
     public void Die()
@@ -59,7 +64,7 @@ public class MarioController : MonoBehaviour
         if (isDead) return;
 
         isDead = true;
-        anim.SetTrigger("Die");   // Asegúrate de tener este trigger en el Animator
+        anim.SetTrigger("Die");   // AsegÃºrate de tener este trigger en el Animator
         rb.velocity = Vector2.zero;
         rb.bodyType = RigidbodyType2D.Kinematic;
         GetComponent<Collider2D>().enabled = false;
@@ -81,9 +86,9 @@ public class MarioController : MonoBehaviour
 
         hasReachedFlag = true;
 
-        anim.Play("Celebrate");  // Reemplaza "Celebrate" por el nombre exacto de la animación en tu Animator
+        anim.Play("Celebrate");  // Reemplaza "Celebrate" por el nombre exacto de la animaciÃ³n en tu Animator
         rb.velocity = Vector2.zero;  // Detener movimiento
-        this.enabled = false;        // Desactivar el script para evitar más input de jugador
+        this.enabled = false;        // Desactivar el script para evitar mÃ¡s input de jugador
     }
 
 }
